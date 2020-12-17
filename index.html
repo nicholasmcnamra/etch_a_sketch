@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Etch-a-sketch</title>
+
+    </head>
+
+    <body>
+        <header>
+            <h1>Etch-a-sketch</h1>
+        </header>
+        
+        <main>
+            <div id="grid-container" class="grid"></div>
+                    <div class="user-control" id="resolution">
+                        <input type="range" id="gridSize" name="size" min="2" max="100" value="8">
+                    </div>
+                    <div>
+                        <button id="erase">Erase</button>
+                    </div>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,70 @@
+#grid-container {
+    display: grid;
+    width: 500px;
+    height: 500px;
+    grid-gap: 10;
+    margin: auto;
+    justify-content: stretch;
+    border: 1px solid black;
+    align-items: stretch;
+}
+#grid-size {
+    width: 80%;
+}
+
+.cell {
+    border: 1px solid gray;
+}
+
+
+
+
+
+
+body {}
+
+main {
+    text-align: ;
+}
+      
+.header {}
+      
+.heading {}
+      
+.controls {
+    display: ;
+    justify-content: ;
+    align-items: ;
+    margin: ;
+    padding: ;
+    width: ;
+    height: ;
+    border-radius: ;
+}
+      
+.controls > div {
+    display: ;
+    align-items: ;
+      
+}
+.controls > div > p {}
+      
+.controls button {
+    border: ;
+    border-radius: ;
+    padding: ;
+    margin-left: ;
+    transition: ;
+    cursor: ;
+    outline: ;
+}
+      
+.controls button:hover {}
+      
+.mode-controls {
+    margin-left: ;
+}
+      
+.active-button {}
+      
+.erase {}
